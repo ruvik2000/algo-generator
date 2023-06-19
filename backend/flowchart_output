@@ -1,0 +1,18 @@
+digraph Flowchart {
+	rankdir=TB size=10
+	1 [label="process:"]
+	6 [label="process:"]
+	1 -> 6
+	9 [label="decision:"]
+	6 -> 9
+	10 [label="process:"]
+	9 -> 10
+	10 -> 10
+	End [label=End]
+	10 -> End
+	End -> 10
+	End [label=End]
+	10 -> End
+	24 [label="process:"]
+	End -> 24
+}
